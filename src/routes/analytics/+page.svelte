@@ -1,5 +1,1 @@
-<script>
-</script>
-
-<style>
-</style>
+<h1>Analytics</h1>

@@ -16,7 +16,7 @@
 				<strong class="text-xl uppercase">VSCP</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<LightSwitch {storePrefersDarkScheme} {storeLightSwitch} class="mr-2" />
+				<!-- <LightSwitch {storePrefersDarkScheme} {storeLightSwitch} class="mr-2" /> -->
 				<a class="btn btn-md btn-ghost-surface" href="/login"> Login </a>
 			</svelte:fragment>
 		</AppBar>

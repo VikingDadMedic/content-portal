@@ -1,0 +1,17 @@
+{
+    "overwrite": true,
+    "schema": "${PUBLIC_DIRECTUS_PROJECT_URL}/graphql",
+    "documents": "src/lib/graphql/**/*.graphql",
+    "generates": {
+        "src/lib/generated/graphql.ts": {
+            "plugins": [
+                "typescript",
+                "typescript-operations",
+                "typescript-document-nodes"
+            ],
+            "./graphql.schema.json": {
+                "plugins": "introspection"
+            }
+        }
+    }
+}

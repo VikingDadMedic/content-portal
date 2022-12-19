@@ -1,4 +1,4 @@
-import { PUBLIC_DIRECTUS_PROJECT_URL } from '$env/static/public';
+// import { PUBLIC_DIRECTUS_PROJECT_URL } from '$env/static/public';
 import query from '$lib/graphql/query/pages.graphql?raw';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';

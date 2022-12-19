@@ -51,5 +51,7 @@ I will devote my everything.
 If you are looking the dev partner, I will be your good resorce.
 
 Thank you. wish your succes.
-
+<p align="center">
+<a href="mailto:businessxfree2000@gmail.com">Email to</a>
+</p>
 P.S> Really sorry request without your allow

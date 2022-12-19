@@ -1,0 +1,7 @@
+{
+    "name": "Travel Content Portal",
+    "short_name": "Content Portal",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons": []
+}

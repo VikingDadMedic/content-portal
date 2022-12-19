@@ -1,0 +1,18 @@
+query Page {
+	pages {
+		id
+		featured_image {
+			id
+			title
+			description
+			height
+			width
+		}
+		page_title
+		page_slug
+		page_description
+		hero_title
+		hero_message
+		hero_link
+	}
+}

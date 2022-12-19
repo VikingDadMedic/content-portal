@@ -7,3 +7,31 @@ declare namespace App {
 	// interface Error {}
 	// interface Platform {}
 }
+
+export declare global {
+	declare namespace svelte.JSX {
+		interface HTMLProps {
+			fetchpriority?: 'auto' | 'high' | 'low';
+		}
+	}
+
+	interface Document {
+		lazyloadInstance: ILazyLoadInstance;
+	}
+
+	interface CartState {
+		subtotal: number;
+		items: { count: number };
+	}
+
+	interface SnipcartState {
+		cart: CartState;
+	}
+
+	interface Window {
+		Snipcart: {
+			ready: Promise;
+			store: { getState: () => SnipcartState; subscribe: (callback: () => void) => () => void };
+		};
+	}
+}

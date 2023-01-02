@@ -36,3 +36,22 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+Hi
+Hope you are doing well.
+
+I found you from upwork.
+I am very interested in this position.
+
+I have experience with svelt.kit and am good at integrate with api.
+Hope work with you, will do my best for success of this project.
+I will devote my everything.
+
+If you are looking the dev partner, I will be your good resorce.
+
+Thank you. wish your succes.
+<p align="center">
+<a href="mailto:businessxfree2000@gmail.com">Email to</a>
+</p>
+P.S> Really sorry request without your allow
